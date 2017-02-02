@@ -1,0 +1,19 @@
+가입, 탈퇴, 로그인, 로그아웃
+POST user/signup
+POST user/signoff
+GET  user/login
+GET  user/logout
+
+
+프로젝트 생성, 삭제, 리스트, 상세
+POST repo/create
+POST repo/delete
+GET  repo/list
+GET  repo/detail or info
+
+테스트코드
+POST testcase/create
+POST testcase/delete
+PUT  testcase/update
+POST testcase/complete
+POST testcase/fail
